@@ -14,5 +14,6 @@ $RECYCLE.BIN/
 
 # concrete5
 contexts/krm/public_html/*
+!contexts/krm/public_html/.gitkeep
 contexts/krm/web_root.tar.gz
 contexts/krm.tar.gz
