@@ -1,0 +1,18 @@
+# OSX
+.DS_Store
+__MACOSX
+thumbs.db
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db 
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# concrete5
+contexts/krm/public_html/*
+contexts/krm/web_root.tar.gz
+contexts/krm.tar.gz
