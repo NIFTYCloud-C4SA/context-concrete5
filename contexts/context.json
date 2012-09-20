@@ -1,11 +1,11 @@
 {
-    "canvas_version":"1.0.0",
-        "ui-summary":"c5_v5.5.2",
-        "description-url":null,
+    "name":"concrete5_5.2.1",
         "version":"1.0.0",
+        "category": { "language": "application", "framework": "concrete5", "priority": 0 },
         "ui-name":"Concrete5",
-        "name":"concrete5.5.2.1",
-        "description":"Concrete5 Context",
+        "ui-summary":"concrete5_v5.2.1",
+        "description":"concrete5は、直感的UIを持つ汎用CMSです。複数人で管理可能なWebサイトを手軽に作成出する事が出来ます。",
+        "description-url":"http://concrete5-japan.org",
         "parameters": {
             "mysql_password": { "type": "string",
                 "restr": "[0-9A-Za-z]{8,16}",
@@ -15,6 +15,7 @@
                 "auto": "[0-9A-Za-z]{8}" }
         },
         "context_resources": ["web_root.tar.gz", "nginx.conf"],
+        "canvas_version":"1.0.0",
         "instruction": [
         { "type": "appliance",
             "appliance_name": "logviewer.local",
