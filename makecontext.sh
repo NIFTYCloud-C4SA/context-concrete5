@@ -20,7 +20,7 @@ ${BIN_MV} ./concrete5*/* ./
 ${BIN_RM} ./concrete5.*
 ${BIN_CD} ../
 ${BIN_TAR} czpf ../docroot.tar.gz * 
-${BIN_CDE} ../
+${BIN_CD} ../
 ${BIN_RM} ./docroot
 ${BIN_TAR} czpf ./krm.tar.gz ./krm
 
