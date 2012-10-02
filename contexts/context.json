@@ -1,5 +1,5 @@
 {
-    "name":"concrete5_5.2.1",
+    "name":"concrete5",
         "version":"1.0.0",
         "category": { "language": "application", "framework": "concrete5", "priority": 0 },
         "ui-name":"Concrete5",
