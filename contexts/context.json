@@ -14,7 +14,7 @@
                 "restr": "[0-9A-Za-z]{8,16}",
                 "auto": "[0-9A-Za-z]{8}" }
         },
-        "context_resources": ["web_root.tar.gz", "nginx.conf"],
+        "context_resources": ["docroot.tar.gz", "nginx.conf"],
         "canvas_version":"1.0.0",
         "instruction": [
         { "type": "appliance",
@@ -44,7 +44,7 @@
             "signal": "install",
             "in": {
                 "type": "archive",
-                "resource": "web_root.tar.gz"
+                "resource": "docroot.tar.gz"
             }
         },
         { "type": "appliance",
