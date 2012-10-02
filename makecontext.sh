@@ -22,6 +22,7 @@ ${BIN_CD} ../
 ${BIN_TAR} czpf ../docroot.tar.gz * 
 ${BIN_CD} ../
 ${BIN_RM} ./docroot
+${BIN_CD} ../
 ${BIN_TAR} czpf ./krm.tar.gz ./krm
 
 ## end
