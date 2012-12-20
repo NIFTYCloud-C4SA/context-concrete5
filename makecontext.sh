@@ -9,7 +9,7 @@ BIN_UNZIP="/usr/bin/unzip"
 BIN_MKDIR="/bin/mkdir"
 
 URL_REPO="https://github.com/concrete5japan/concrete5.git"
-URL_ARCHIVE="https://github.com/downloads/concrete5japan/concrete5/concrete5.5.2.1.ja.zip"
+URL_ARCHIVE="https://github.com/concrete5japan/concrete5/archive/5.6.0.2.ja.zip"
 
 PATH_WORKDIR="./workdir"
 

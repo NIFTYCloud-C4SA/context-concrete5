@@ -1,10 +1,10 @@
 {
     "canvas_version":"1.0.0",
-        "ui-summary":"c5_v5.5.2",
+        "ui-summary":"c5_v5.6.0.2",
         "description-url":null,
-        "version":"1.0.0",
+        "version":"1.1.0",
         "ui-name":"Concrete5",
-        "name":"concrete5.5.2.1",
+        "name":"concrete5.6.0.2",
         "description":"Concrete5 Context",
         "parameters": {
             "mysql_password": { "type": "string",
