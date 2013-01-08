@@ -3,7 +3,7 @@
         "version":"1.0.0",
         "category": { "language": "application", "framework": "concrete5", "priority": 0 },
         "ui-name":"Concrete5",
-        "ui-summary":"concrete5_v5.2.1",
+        "ui-summary":"concrete5_v5.6.0.2",
         "description":"concrete5は、直感的UIを持つ汎用CMSです。複数人で管理可能なWebサイトを手軽に作成出する事が出来ます。",
         "description-url":"http://concrete5-japan.org",
         "parameters": {
@@ -31,6 +31,18 @@
                 "tier": ["20"]
             }
         },
+        {
+            "type": "appliance", 
+            "appliance_name": "kvs.redis.shared",
+            "appliance_id": "redis_id", 
+            "state": {
+                "tier": [], 
+                "global_ip": "", 
+                "password": "", 
+                "memory_size": "4MB", 
+                "port": 0
+            }
+        }, 
         { "type": "appliance",
             "appliance_name": "disk.shared",
             "appliance_id": "disk_id",
@@ -59,7 +71,7 @@
             "appliance_name": "util.env-manager",
             "appliance_id": "env_id",
             "state": {
-                "env_ids": ["mysql_id"],
+                "env_ids": ["mysql_id", "redis_id"],
                 "envs": []
             }
         },
