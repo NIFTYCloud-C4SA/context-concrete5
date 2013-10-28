@@ -10,7 +10,7 @@ BIN_MKDIR="/bin/mkdir"
 BIN_CD="cd"
 
 #URL_REPO="https://github.com/concrete5japan/concrete5.git"
-URL_ARCHIVE="https://github.com/downloads/concrete5japan/concrete5/concrete5.6.0.2.ja.zip"
+URL_ARCHIVE="http://concrete5-japan.org/download_file/view/1215/"
 
 ${BIN_CD} ./contexts/krm/docroot/public_html/ 
 ${BIN_CURL} -o ./concrete5.zip ${URL_ARCHIVE}
