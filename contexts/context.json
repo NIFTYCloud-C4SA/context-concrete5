@@ -3,8 +3,8 @@
         "version":"1.0.0",
         "category": { "language": "application", "framework": "concrete5", "priority": 0 },
         "ui-name":"Concrete5",
-        "ui-summary":"concrete5_v5.6.0.2",
-        "description":"concrete5は、直感的UIを持つ汎用CMSです。複数人で管理可能なWebサイトを手軽に作成出する事が出来ます。",
+        "ui-summary":"concrete5_v5.6.2.1",
+        "description":"concrete5は、直感的なUIを持つ汎用CMSです。複数人で管理可能なWebサイトを手軽に作成する事ができます。",
         "description-url":"http://concrete5-japan.org",
         "parameters": {
             "mysql_password": { "type": "string",
